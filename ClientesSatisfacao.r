@@ -1,0 +1,7 @@
+data = read.csv('C:/temp/Data.csv')
+table(data)
+summary(data)
+head(data)
+colnames(data)
+mean(data$tempo)
+unique(data$satisfacao)
